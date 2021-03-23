@@ -1,55 +1,44 @@
-// alert("Hello world!");
-// alert("Bye world!");
+// const userInput = prompt();
 
-// const helloStr='Hello World';
-// let test;
-// test='Test';
-// test=5;
-// console.log(helloStr);
-// console.log(test, typeof test);
+// console.log(userInput);
 
-// let test ='5' + '5';
-// if(test){
-//   console.log('Hello world!');
+// const myFirstFunc= function(){
+//   console.log("1");
 // }
-// console.log('Hello world!');
-// console.log("test");
-// console.log("Hello world!");
 
-// console.log("10");
-// console.log(10);
+// myFirstFunc();
+// myFirstFunc();
+// myFirstFunc();
 
-// console.log(true);
-// console.log(null);
-// console.log(undefined);
+// task1
+const userInput1 = prompt("Enter number 1: ");
+const userInput2 = prompt("Enter number 1: ");
 
-const a=5;
-const b=6;
-console.log(a*b);
+const maxNumber = function(val1, val2) {
+  if (userInput1 > userInput2) {
+    return userInput1;
+  }
+  return userInput2;
+}
+console.log(maxNumber(userInput1,userInput2));
 
-const c=5;
-const d=6;
-console.log(c/d);
+// task2
 
-const e=5;
-const f=6;
-console.log(e+f);
+const minNumber = function(val1, val2) {
+  if (userInput1 < userInput2) {
+    return userInput1;
+  }
+  return userInput2;
+}
+console.log(minNumber(userInput1,userInput2));
 
-const number=11;
-const bol=true;
-const text="java script";
-const test="100";
+// task3
 
-console.log(number,bol,text,test);
 
-let num=1;
-
-num+=11;
-num-=11;
-num*=11;
-num/=11;
-num++;
-num--;
-
-console.log(num);
-
+const isEven = function(num) {
+  if ((num % 2)>0) {
+    return "Нечётное";
+  }
+  return "Чётное";
+}
+console.log(isEven(userInput1));
