@@ -11,9 +11,23 @@
 // myFirstFunc();
 
 // task1
+
+/**
+ * Checks what number is max
+ * @param {number} val1
+ * @param{number} val2
+ * @returns{number}
+ */
+
 const userInput1 = prompt("Enter number 1: ");
 const userInput2 = prompt("Enter number 1: ");
 
+/**
+ * Checks what number is max
+ * @param {number} val1 
+ * @param {number} val2 
+ * @returns {number}
+ */
 const maxNumber = function(val1, val2) {
   if (userInput1 > userInput2) {
     return userInput1;
